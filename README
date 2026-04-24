@@ -1,8 +1,8 @@
-# Pedestrianized street segments in Barcelona (2015–2021)
+# Pedestrianized street segments in Barcelona (2012–2021)
 ![Pedestrianization map](https://github.com/pablovillarabeijon/barcelona_pedestrian/blob/main/map.png)
 
 ## Description
-Pedestrianized street segments in the municipality of Barcelona between January 1, 2015 and January 1, 2022. Classified by year and type of pedestrianization.
+Pedestrianized street segments in the municipality of Barcelona between January 1, 2012 and January 1, 2022. Classified by year and type of pedestrianization.
 
 ## Data
 - Format: GeoJSON
@@ -16,7 +16,7 @@ Pedestrianized street segments in the municipality of Barcelona between January 
       
 
 ## Source
-This dataset was built upon a manual process. First, currently pedestrian streets were obtained from Barcelona Open Data website (streets classified as "Prioritat vianant" or "Sense vehicles motoritzats" were retained). Streets part of the Superblock program were also included. Then, through manual validation using Google Street View, streets pedestrianised after 01/01/2015 were retained, and the year of pedestrianisation was assigned. 
+This dataset was built upon a manual process. First, currently pedestrian streets were obtained from Barcelona Open Data website (streets classified as "Prioritat vianant" or "Sense vehicles motoritzats" were retained). Streets part of the Superblock program were also included. Then, through manual validation using Google Street View, streets pedestrianised after 01/01/2012 were retained, and the year of pedestrianisation was assigned. 
 
 ## License
 This dataset is licensed under CC BY-NC 4.0.
