@@ -1,0 +1,25 @@
+# Pedestrianized street segments in Barcelona (2015–2021)
+
+## Description
+Pedestrianized street segments in the municipality of Barcelona between January 1, 2015 and January 1, 2022. Classified by year and type of pedestrianization.
+
+## Data
+- Format: GeoJSON
+- Coordinate system: EPSG:25831 - ETRS89 / UTM zone 31N
+
+## Fields
+- C_Tram: Unique identifier of each street segment. 
+- Peatonal: 1 if street has experimented pedestrianisation projects. 0 if it has not. 
+- Peat_aao: year of intervention as inferred through Google Street View imagery. 
+- Tipo_peat: type of pedestrianisation project: Tactical urbanism (1), Levelled roads and sidewalks (2), Unique platform streets (3), Other types of pedestrian streets (4). 
+      
+
+## Source
+This dataset was built upon a manual process. First, currently pedestrian streets were obtained from Barcelona Open Data website (streets classified as "Prioritat vianant" or "Sense vehicles motoritzats" were retained). Streets part of the Superblock program were also included. Then, through manual validation using Google Street View, streets pedestrianised after 01/01/2015 were retained, and the year of pedestrianisation was assigned. 
+
+## License
+This dataset is licensed under CC BY-NC 4.0.
+You must give appropriate credit and cannot use this data for commercial purposes.
+When using this dataset, the following academic paper should be cited: 
+   Villar-Abeijón, P., Miralles-Guasch, C., & Marquet, O. (2025). Can pedestrianization trigger gentrification? Analysis of Barcelona’s sociodemographic changes following pedestrianization schemes. Transportation Research Part D: Transport and Environment, 142, 104718. doi: 10.1016/j.trd.2025.104718                                                                                                                                 
+                                                                                                                                 
